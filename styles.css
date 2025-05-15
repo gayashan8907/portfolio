@@ -1,0 +1,390 @@
+body{
+    margin: 0%;
+    height: 200vh;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background: radial-gradient(
+            circle at top,
+            rgba(70, 212, 241, 0.98),
+            rgba(250, 103, 103, 0.87)
+          )
+         ;
+     background-repeat: repeat;
+    background-size: 100% 100%, 30% 30%, 100% 100%;
+    min-height: 110rem;
+      
+}
+
+
+#carouselExampleSlidesOnly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item img{
+    height: 500px;
+} 
+.carousel {
+        transition: transform 0.5s ease-in-out; 
+}
+
+
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 2rem; 
+    text-shadow: 2px 2px 4px rgba(173, 62, 62, 0.6); 
+    text-align: center; 
+    font-size: 2rem;
+    
+}
+  
+  @keyframes fadeIn {
+    0% {
+        opacity: 0.2; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+h1 {
+    font-size: 8rem;
+    opacity: 0.2; 
+    animation: fadeIn 2s forwards; 
+    animation-delay: 1s; 
+    
+}
+
+#udara{
+    
+    font-size: 8rem;
+    font-family: 'Sacramento', cursive;
+}
+
+
+  .profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #3c3636;
+    
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+      
+}
+p {
+    line-height: 2;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight:light;
+    font-style: normal;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+    
+
+}
+.justify-content-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    
+}
+.align-items-start{
+    display: flex;
+    background-color: white;
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 10%;
+    border-bottom: 1px solid rebeccapurple;
+    animation-name: changecolor;
+    animation-duration: 10s;
+    
+}
+@keyframes changecolor {
+    from {background-color:white;}
+    to {background-color: #FFE1FF;}
+  }
+
+h4{
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    
+}
+.accordion-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    color: rgb(5, 5, 12);
+    margin-bottom: 50px;
+    
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.card-body {
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    color: white; /* Ensure text is white for better contrast */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ 
+.card1{
+    padding-top:20px;
+     background-image: url(https://www.quizwitz.com/assets/img/generated/blog/2023-01-25/quiz-800-9a2766d14.png);
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card2{
+    padding-top:20px;
+     background-image: url('https://www.amitree.com/wp-content/uploads/2021/12/what-is-a-task-tracker-and-why-you-need-one.jpeg');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card3{
+    padding-top:20px;
+     background-image: url('https://i.pinimg.com/originals/17/4e/17/174e1783b36db4a0e6116f20972c5775.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ 
+ .card4{
+    padding-top:20px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EfT5SqQ6g1cECRjY3eNhzZAGV1ofeF_97w&s');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+.card5{
+   padding-top:20px;
+    background-image: url('./images/coffee.png');
+    background-size: cover; 
+    background-position: center; 
+    width: 200px;
+    height: 200px;
+
+     border-radius: 10%;
+}
+.card6{
+    padding-top:20px;
+     background-image: url('./images/drum.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+      
+ }
+ .card7{
+    padding-top:20px;
+     background-image: url('./images/Happy\ Working.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+      
+ }
+ .card8{
+    padding-top:20px;
+     background-image: url('./images/1.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+     border-radius: 10%;
+      
+ }
+
+ .card11{
+    padding-top:20px;
+     background-image: url('./images/Keyfob.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card22{
+    padding-top:20px;
+     background-image: url('./images/Game\ Controller\ Assembly.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card33{
+    padding-top:20px;
+     background-image: url('./images/Mouse.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card44{
+    padding-top:20px;
+     background-image: url('./images/Lego\ man.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card55{
+    padding-top:20px;
+     background-image: url('./images/Agitator\ roller.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card66{
+    padding-top:20px;
+     background-image: url('./images/Enclosure.SLDPRT.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card77{
+    padding-top:20px;
+     background-image: url('./images/Car\ Jack.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ .card88{
+    padding-top:20px;
+     background-image: url('./images/V\ Block.png');
+     background-size: cover; 
+     background-position: center; 
+     width: 200px;
+     height: 200px;
+ 
+      border-radius: 10%;
+ }
+ h6{
+    color: blueviolet;
+ }
+ .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+  @media(max-width:1024px){
+    body{
+        font-size: 1rem;
+       
+    }
+   
+    .row-cols-sm-2{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(16, 156, 190);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 20px;
+        
+        }
+    .justify-content-center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 25px 0;
+            
+        }
+     #cards{
+            display: flex;
+            flex-direction:column;
+        }
+
+  }
+  
+  
